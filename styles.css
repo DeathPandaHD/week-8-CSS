@@ -1,0 +1,61 @@
+#example {
+    color: gainsboro;
+    background-color: forestgreen;
+    border-style: double;
+    border-width: 10px;/*border thiccness*/
+    border-color:black;
+    border-radius: 10%; /*rounds corners*/
+    height: auto;
+    text-align: center;
+
+}
+
+body {
+    background-color:#4a2d40;
+}
+
+h1 {
+    color:#C3AFBB;
+}
+
+.old-div{
+    background-color:#6B5E66;border-width:4px;;border-style:solid;border-color:#9E718E;    
+}
+
+.shadow-text {
+    text-shadow:rgb(60, 27, 27) 1px 1px;
+}
+.text-color{
+    color:#C3AFBB;
+}
+#large {
+    font-size:30px ;
+}
+
+table{
+    border-collapse:separate ;
+    width: 100%;
+    color:#C3AFBB;
+}
+
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #6B5E66;
+}
+
+tr:nth-child(even){
+    background-color:#9E718E ;
+}
+tr:hover{
+    background-color: #6B5E66;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: #9E718E;
+    border-color: #6B5E66;
+}
